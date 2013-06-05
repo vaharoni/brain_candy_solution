@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  difficulty_level: 
+
+two:
+  name: MyString
+  difficulty_level: 

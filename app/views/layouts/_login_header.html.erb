@@ -1,0 +1,10 @@
+<p>
+  <nav class="pull-right">
+    <% if user_signed_in? %>
+        <%= home_link %>
+        <%= content_tag :span, "Signed in as #{current_user.email}" %> |
+        <%= content_tag :span, link_to("Sign out", :destroy_user_session, method: :delete) %>
+    <% end %>
+  </nav>
+  <div class="clearfix"></div>
+</p>

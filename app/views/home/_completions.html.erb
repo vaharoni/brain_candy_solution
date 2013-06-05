@@ -1,0 +1,25 @@
+<table border="1">
+  <thead>
+  <tr>
+    <th>Brain Candy</th>
+    <% @users.each do |u| %>
+        <th><%= u.email %></th>
+    <% end %>
+    <th></th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @brain_candies.each do |bc| %>
+      <tr>
+        <td><%= bc.name %></td>
+        <% @users.each do |u| %>
+            <td>
+              <%= show_candy_status u.candy_status(bc) %>
+              <%= link_to "Verify!", verify_brain_candy_path(bc, user_id: u.id), method: :post if u.candy_status(bc) == :claimed and u != current_user %>
+            </td>
+        <% end %>
+        <td><%= link_to "Claim completed!", claim_complete_brain_candy_path(bc), method: :post %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

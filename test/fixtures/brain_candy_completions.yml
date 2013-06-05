@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  brain_candy: 
+  user: 
+  completed_at: 2013-06-04 15:45:13
+  verifying_user: 
+  victory_text: MyString
+
+two:
+  brain_candy: 
+  user: 
+  completed_at: 2013-06-04 15:45:13
+  verifying_user: 
+  victory_text: MyString
