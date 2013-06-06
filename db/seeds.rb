@@ -8,7 +8,25 @@
 
 DifficultyLevel.transaction do
   DifficultyLevel.delete_all
-  [:super_easy, :easy, :medium, :hard, :impossible].each do |d|
-    DifficultyLevel.create name: d
+  [:super_easy, :easy, :medium, :hard, :impossible].each_with_index do |d, i|
+    DifficultyLevel.new do |dl|
+      dl.id = i + 1
+      dl.name = d.to_s.titleize
+      dl.save!
+    end
+  end
+end
+
+BrainCandy.transaction do
+  BrainCandy.where("id <= ?", 4).delete_all
+  ["Snicker", "Twizzler", "Twix", "Jelly Belly"].each_with_index do |c, i|
+    id = i + 1
+    BrainCandy.new do |bc|
+      bc.id = id
+      bc.difficulty_level_id = id
+      bc.name = c
+      bc.photo_file_name = "#{c.gsub(" ", "")}.jpg"
+      bc.save!
+    end
   end
 end

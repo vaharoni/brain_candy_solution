@@ -12,19 +12,6 @@
  *= require_tree .
  */
 
-.pull-right {
-    float: right;
-    margin-right: 20px;
-}
-
-.clearfix {
-    clear: both;
-}
-
-.notice {
-    background-color: yellow;
-}
-
-.alert {
-    background-color: red;
+footer {
+    margin-top: 20px;
 }

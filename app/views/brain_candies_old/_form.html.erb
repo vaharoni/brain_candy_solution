@@ -1,0 +1,33 @@
+<%= form_for(@brain_candy, html: {multipart: true}) do |f| %>
+    <% if @brain_candy.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@brain_candy.errors.count, "error") %> prohibited this brain_candy from being saved:</h2>
+
+          <ul>
+            <% @brain_candy.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :name %>
+      <br/>
+      <%= f.text_field :name %>
+    </div>
+    <div class="field">
+      <%= f.label :difficulty_level %>
+      <br/>
+      <%= f.select :difficulty_level_id, DifficultyLevel.all.map { |dl| [dl.name, dl.id] } %>
+    </div>
+
+    <p><%= brain_candy_photo %></p>
+
+    <div class="field">
+      <%= f.file_field :photo %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>

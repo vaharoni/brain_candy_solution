@@ -2,7 +2,7 @@ class BrainCandy < ActiveRecord::Base
   attr_accessible :name, :difficulty_level_id, :photo
 
   belongs_to :difficulty_level
-  has_many :brain_candy_completions
+  has_many :brain_candy_completions, dependent: :destroy
 
   delegate :name, to: :difficulty_level, prefix: true, allow_nil: true
   delegate :url, to: :photo, prefix: true, allow_nil: true
