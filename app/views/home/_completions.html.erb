@@ -20,7 +20,7 @@
               <%= link_to "Verify!", verify_brain_candy_path(bc, user_id: u.id), method: :post, class: "pull-right" if u.candy_status(bc) == :claimed and u != current_user %>
             </td>
         <% end %>
-        <td><%= link_to "Claim completed!", claim_complete_brain_candy_path(bc), method: :post if @current_user.candy_status(bc) == :unsolved %></td>
+        <td><%= link_to "I did it!", claim_complete_brain_candy_path(bc), method: :post if @current_user.candy_status(bc) == :unsolved %></td>
       </tr>
   <% end %>
   </tbody>
