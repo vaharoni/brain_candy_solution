@@ -4,7 +4,7 @@ class BrainCandiesController < ApplicationController
   # GET /brain_candies
   # GET /brain_candies.json
   def index
-    @brain_candies = BrainCandy.all
+    @brain_candies = BrainCandy.includes(:difficulty_level).all
 
     respond_to do |format|
       format.html # index.html.erb.erb
