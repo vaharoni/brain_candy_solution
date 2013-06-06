@@ -4,6 +4,12 @@ module BrainCandiesHelper
   end
 
   def show_candy_status(status)
-    {unsolved: "", solved: "Solved", claimed: "Claimed"}[status]
+    label =
+        {unsolved: nil,
+         solved: {text: "Solved", label: "label-success"},
+         claimed: {text: "Claimed", label: "label-warning"}}[status]
+
+    return nil unless label.present?
+    content_tag :span, label[:text], class: "label #{label[:label]}"
   end
 end

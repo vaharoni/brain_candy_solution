@@ -9,7 +9,6 @@ BrainCandySolution::Application.routes.draw do
       post :verify
     end
   end
-  resources :users
 
 
   # The priority is based upon order of creation:

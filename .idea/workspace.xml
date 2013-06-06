@@ -2,63 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/brain_candies_old/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/brain_candies_old/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/brain_candies_old/new.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/brain_candies_old/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/brain_candies_old/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/brain_candies_old/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/brain_candies_old/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/brain_candies_old/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/brain_candies_old/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/brain_candies/photos/000/000/003/medium/Photo_on_6-4-13_at_2.55_PM.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/brain_candies/photos/000/000/003/original/Photo_on_6-4-13_at_2.55_PM.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/brain_candies/photos/000/000/003/thumb/Photo_on_6-4-13_at_2.55_PM.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/brain_candies/photos/000/000/008/medium/amit_aharoni_photo.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/brain_candies/photos/000/000/008/original/amit_aharoni_photo.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/system/brain_candies/photos/000/000/008/thumb/amit_aharoni_photo.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/brain_candies/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/brain_candies_old/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/brain_candy_solution.iml" afterPath="$PROJECT_DIR$/.idea/brain_candy_solution.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_completions.html.erb" afterPath="$PROJECT_DIR$/app/views/home/_completions.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/brain_candies/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/brain_candies/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_login_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_login_header.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/brain_candy.rb" afterPath="$PROJECT_DIR$/app/models/brain_candy.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/brain_candy_completion.rb" afterPath="$PROJECT_DIR$/app/models/brain_candy_completion.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/brain_candies_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/brain_candies_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/brain_candies/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/brain_candies/edit.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/brain_candies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/brain_candies/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/brain_candies/new.html.erb" afterPath="$PROJECT_DIR$/app/views/brain_candies/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/brain_candies/show.html.erb" afterPath="$PROJECT_DIR$/app/views/brain_candies/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="brain_candy_solution.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370518605826" ignored="false" />
+    <file path="/Gemfile" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370522859894" ignored="false" />
     <file path="/20130604143419_create_brain_candies.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370357432423" ignored="false" />
     <file path="/20130604145048_create_difficulty_level.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370357478132" ignored="false" />
     <file path="/seeds.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370517443290" ignored="false" />
     <file path="/difficulty_level.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370357902866" ignored="false" />
     <file path="/brain_candy.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370516056418" ignored="false" />
-    <file path="/_form.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370518973107" ignored="false" />
-    <file path="/index.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370518945992" ignored="false" />
+    <file path="/_form.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370523878802" ignored="false" />
+    <file path="/index.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370524740319" ignored="false" />
     <file path="/Dummy.txt" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370458189664" ignored="false" />
-    <file path="/show.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370373893139" ignored="false" />
+    <file path="/show.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370523463232" ignored="false" />
     <file path="/20130604181040_create_brain_candies.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370369471709" ignored="false" />
     <file path="$PROJECT_DIR$/../starboard/app/models/price_drop.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370369662919" ignored="false" />
-    <file path="/a.dummy" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370444871543" ignored="false" />
+    <file path="/a.dummy" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370522792229" ignored="false" />
     <file path="/home_controller.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370441914474" ignored="false" />
     <file path="/index.html" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370372781872" ignored="false" />
-    <file path="$PROJECT_DIR$/log/development.log" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370372934471" ignored="false" />
     <file path="/application_controller.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370373136609" ignored="false" />
-    <file path="/_login_header.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370374383192" ignored="false" />
+    <file path="/_login_header.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370524227625" ignored="false" />
     <file path="/application.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370518320673" ignored="false" />
-    <file path="/brain_candies_helper.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370377335053" ignored="false" />
-    <file path="/application.css" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370518352507" ignored="false" />
+    <file path="/brain_candies_helper.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370525490963" ignored="false" />
+    <file path="/application.css" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370524999009" ignored="false" />
     <file path="/application_helper.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370374296839" ignored="false" />
     <file path="/users_controller.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370374822241" ignored="false" />
     <file path="/routes.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370442749237" ignored="false" />
     <file path="/user.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370516071280" ignored="false" />
     <file path="/brain_candy_completions_controller.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370379177843" ignored="false" />
     <file path="/brain_candy_completion.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370458778913" ignored="false" />
-    <file path="/_completions.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370517605022" ignored="false" />
+    <file path="/_completions.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370525174595" ignored="false" />
     <file path="/brain_candies_controller.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370443688352" ignored="false" />
     <file path="$PROJECT_DIR$/../starboard/app/controllers/api/price_drops_controller.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370444483120" ignored="false" />
     <file path="$PROJECT_DIR$/../starboard/config/database.yml" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370446362010" ignored="false" />
@@ -67,6 +80,9 @@
     <file path="$PROJECT_DIR$/../brain_candy2/Gemfile" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370518606364" ignored="false" />
     <file path="$PROJECT_DIR$/../brain_candy2/app/views/layouts/application.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370518642014" ignored="false" />
     <file path="$PROJECT_DIR$/../brain_candy2/config/routes.rb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370518671921" ignored="false" />
+    <file path="/.gitignore" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370522517580" ignored="false" />
+    <file path="/new.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370523977541" ignored="false" />
+    <file path="/edit.html.erb" changelist="00ff2015-1a4a-4e93-bfe3-b9fc186c0f65" time="1370523981718" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,64 +102,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="_completions.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/_completions.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+            <state line="18" column="25" selection-start="413" selection-end="413" vertical-scroll-proportion="-11.769231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <file leaf-file-name="brain_candies_helper.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/helpers/brain_candies_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/brain_candies_old/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="93" selection-start="628" selection-end="715" vertical-scroll-proportion="-13.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/brain_candies/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/brain_candies_old/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/brain_candies/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/brain_candies_old/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="14" selection-start="46" selection-end="66" vertical-scroll-proportion="-1.3076923">
+            <state line="11" column="65" selection-start="367" selection-end="367" vertical-scroll-proportion="0.2982456">
               <folding />
             </state>
           </provider>
@@ -152,25 +123,70 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/brain_candies/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="64" selection-start="624" selection-end="624" vertical-scroll-proportion="-15.692307">
+            <state line="7" column="16" selection-start="130" selection-end="130" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/brain_candies_old/new.html.erb">
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="20" column="13" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/brain_candies_old/show.html.erb">
+      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="12" column="13" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="59" selection-start="72" selection-end="72" vertical-scroll-proportion="-2.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_login_header.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_login_header.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="54" selection-start="320" selection-end="320" vertical-scroll-proportion="-4.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="26" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="28" selection-start="1932" selection-end="1932" vertical-scroll-proportion="-7.269231">
               <folding />
             </state>
           </provider>
@@ -194,22 +210,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/helpers/brain_candies_helper.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/brain_candies/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/brain_candies/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/brain_candies/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/brain_candies/show.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/brain_candies_controller.rb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/models/brain_candy_completion.rb" />
-        <option value="$PROJECT_DIR$/app/models/brain_candy.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/_completions.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/brain_candies_old/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_login_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/brain_candies/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/brain_candies/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/_completions.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/brain_candies_helper.rb" />
       </list>
     </option>
   </component>
@@ -329,28 +345,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brain_candy_solution" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brain_candy_solution" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -392,10 +386,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brain_candies_old" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -556,14 +546,30 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="134" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="133" />
     <property name="options.lastSelected" value="ruby.project.structure" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../brain_candy2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="143" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="924" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="922" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="135" />
     <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -802,15 +808,15 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0332871" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4674064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13176145" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532751" sideWeight="0.5325936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532751" sideWeight="0.9403606" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.05963939" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -880,6 +886,83 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195@brain_candy/gems/actionpack-3.2.13/lib/action_view/helpers/form_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1336" column="10" selection-start="57375" selection-end="57375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/brain_candies/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="15" selection-start="467" selection-end="467" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/brain_candies/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/brain_candies/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/brain_candies/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="189" selection-end="189" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="28" selection-start="1932" selection-end="1932" vertical-scroll-proportion="-7.269231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="59" selection-start="72" selection-end="72" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="26" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_login_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="54" selection-start="320" selection-end="320" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -887,109 +970,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="28" selection-start="1932" selection-end="1932" vertical-scroll-proportion="-7.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130604194513_create_brain_candy_completions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130604181040_create_brain_candies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/brain_candies_old/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="93" selection-start="628" selection-end="715" vertical-scroll-proportion="-13.730769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/brain_candies_old/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/brain_candies/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/brain_candies_old/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/brain_candies_old/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/brain_candies_old/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="46" selection-end="66" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/brain_candies/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="64" selection-start="624" selection-end="624" vertical-scroll-proportion="-15.692307">
+        <state line="7" column="16" selection-start="130" selection-end="130" vertical-scroll-proportion="-4.576923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+        <state line="20" column="13" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/home/_completions.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+        <state line="18" column="25" selection-start="413" selection-end="413" vertical-scroll-proportion="-11.769231">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/brain_candies/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/brain_candies_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
+        <state line="11" column="65" selection-start="367" selection-end="367" vertical-scroll-proportion="0.2982456">
           <folding />
         </state>
       </provider>

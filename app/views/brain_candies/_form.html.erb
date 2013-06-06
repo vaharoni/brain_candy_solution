@@ -1,25 +1,13 @@
-<%= form_for(@brain_candy) do |f| %>
-  <% if @brain_candy.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@brain_candy.errors.count, "error") %> prohibited this brain_candy from being saved:</h2>
-
-      <ul>
-      <% @brain_candy.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :name %>
+<%= bootstrap_form_for(@brain_candy, html: {multipart: true}) do |f| %>
+    <%= f.alert_message "Please fix the errors below." %>
     <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :difficulty_level %>
-    <%= f.select :difficulty_level_id, DifficultyLevel.all.map { |dl| [dl.name, dl.id] } %>
-  </div>
-  <div class="actions">
-    <%= f.submit class: "btn" %>
-  </div>
+    <%= f.select :difficulty_level_id, DifficultyLevel.all.map { |dl| [dl.name, dl.id] }, label: "Difficulty" %>
+
+    <p><%= brain_candy_photo %></p>
+
+    <%= f.file_field :photo, label: :none %>
+
+    <%= f.actions do %>
+        <%= f.primary "Submit", disable_with: 'Working...' %>
+    <% end %>
 <% end %>
